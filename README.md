@@ -23,3 +23,4 @@ a. Подключить стили к index.html. b. Добавить обнул
 ![screen_2](/problems/no_inspect2.png)
 
 Параметры для style.css пришлось брать из семинарной работы.
+![screen_3](/hw3/complete.png)
