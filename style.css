@@ -8,18 +8,33 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.center {
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+
+}
+
 a {
     text-decoration: none;
 }
 
 .top {
     padding-bottom: 99px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header {
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Agdasima', sans-serif;
+    display: flex;
+    gap: 30px;
 }
 
 .top__content {
@@ -33,6 +48,8 @@ a {
 
 .title {
     margin-bottom: 40px;
+    width: 522px;
+    font-style: normal;
 }
 
 .top__buttons {
@@ -93,4 +110,11 @@ a {
     top: 150px;
     left: 150px;
     z-index: 0;
+}
+
+.top_logo {
+    display:grid;
+    gap: 48px;
+    
+
 }
